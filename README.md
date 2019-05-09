@@ -1,5 +1,5 @@
 # vba
-
+~~~~
 Private Sub Add_Click()
 
     Dim tbl As table
@@ -46,3 +46,4 @@ Sub FillCell(ByRef tbl As table)
     tbl.Cell(Row:=rowCount, Column:=5).Range.Select
     Set newControl = ActiveDocument.ContentControls.Add(wdContentControlCheckBox, Selection.Range)
 End Sub
+~~~~
